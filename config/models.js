@@ -55,7 +55,7 @@ module.exports.models = {
 
   // migrate: 'alter',
 
-  datastore: 'mongodb',
+  // datastore: 'mongodb',
 
 
   /***************************************************************************

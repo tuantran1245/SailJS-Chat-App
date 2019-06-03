@@ -60,11 +60,16 @@ module.exports.datastores = {
     //   database: 'MongoDBDatabase1' //optional
     // }
 
-    mongodb: {
-      adapter: 'sails-mongo',
-      host: 'localhost',
-      port: 27017,
-      database: 'chat',
+    // mongodb: {
+    //   adapter: 'sails-mongo',
+    //   host: 'localhost',
+    //   port: 27017,
+    //   database: 'chat',
+    // }
+
+    default: {
+      adapter: require('sails-mongo'),
+      url: 'http://localhost:27017/chat',
     }
   }
 };
